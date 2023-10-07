@@ -1,0 +1,2 @@
+-Para criar um arquivo com as dependencias command = pip freeze > requirements.txt
+
