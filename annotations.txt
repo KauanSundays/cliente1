@@ -1,2 +1,6 @@
 -Para criar um arquivo com as dependencias command = pip freeze > requirements.txt
-
+-Defini que os arquivos de templantes estarão na pasta com nomes templantes
+    ->(veja linha 16 de settings)
+-Para Definir idioma e horario veja em settings:
+    ->LANGUAGE_CODE
+    ->TIME_ZONE

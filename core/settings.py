@@ -16,6 +16,8 @@ from pathlib import Path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templantes')
 STATIC_DIR= os.path.join(BASE_DIR, 'static')
+#DEFININDO QUE OS ARQUIVOS DE TEMPLATES, ESTARÃO EM PASTAS COM O NOME TEMPLANTES
+#DEFININDO QUE OS ARQUIVOS DE STATIC, ESTARÃO EM PASTAS COM O NOME STATIC
 
 
 # Quick-start development settings - unsuitable for production
@@ -106,12 +108,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
+LANGUAGE_CODE = 'pt-br'
+TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = True
-
+USE_L1ON = True
 USE_TZ = True
 
 
