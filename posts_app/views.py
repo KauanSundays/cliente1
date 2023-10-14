@@ -29,4 +29,10 @@ def post_create(request):
     form = PostsForm() # senão carrega o formulario  
     return render(request, 'post-form.html', {"form": form}) # nesse template
 
-
+def post_detail(request, id):
+    template_name = 'post-detail.html' # template
+    post = Posts.objects.get(id=id) # Metodo Get
+    context = { # cria context para chamar no template
+        'post': post
+        }
+    return render(request, template_name, context) # render
