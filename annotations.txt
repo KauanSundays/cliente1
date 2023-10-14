@@ -4,3 +4,13 @@
 -Para Definir idioma e horario veja em settings:
     ->LANGUAGE_CODE
     ->TIME_ZONE
+
+
+
+	<!-- {% include '_navbar.html' %} -->
+
+	<!-- {% include '_message.html' %} -->
+
+
+
+    	<!-- <a class="btn btn-success" href="{% url 'post-create' %}">Criar um Post</a>  -->
