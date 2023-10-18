@@ -19,9 +19,8 @@ from django.conf.urls.static import static
 from django.urls import path, include ## adicionar include
 
 urlpatterns = [
-    path('admin', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', include('posts_app.urls')), # Adicionar isso.
-    
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) # Adicionar Isto

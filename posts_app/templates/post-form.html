@@ -10,8 +10,8 @@
 		
 		<form method="post" action="{% if request.method == 'POST' %}{% url 'post-create' %}{% endif %}" 
 			enctype="multipart/form-data">
-			{% csrf_token %}  <!-- Token para formulario -->
-			{{ form.as_p }}  <!-- Criar por paragrafo -->
+			{% csrf_token %}
+			{{ form.as_p }} 
 			<button class="btn btn-success" type="submit">Criar</button> 
 		</form>
 
